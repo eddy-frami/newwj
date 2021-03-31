@@ -5,7 +5,7 @@ import unittest
 from globle import globle1
 g1 = globle1()
 class upfile0101(unittest.TestCase):
-    upurl01 = "http://172.28.250.71:16200/sdb/openApi/hmf/v1/merchAdd/contractFileUpload"
+    upurl01 = "http://0.0.0.0:16200/sdb/openApi/hmf/v1/merchAdd/contractFileUpload"
     data01 = {"header":{
         "version":"kkk",
         "platform":"hm",

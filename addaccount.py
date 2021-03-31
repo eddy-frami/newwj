@@ -4,7 +4,7 @@ import json
 from globle import globle1
 g2 = globle1()
 class addact01(unittest.TestCase):
-	addurl = "http://172.28.250.71:16200/sdb/openApi/hmf/v1/merchAdd/addAccount"
+	addurl = "http://0.0.0.0:16200/sdb/openApi/hmf/v1/merchAdd/addAccount"
 	addata = {
 		"header": {
 			"version": "1.0",
